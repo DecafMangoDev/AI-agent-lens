@@ -1,0 +1,5 @@
+{"timestamp": "2026-11-01T00:00:00Z", "type": "session_meta", "payload": {"id": "synthetic-12-mcp-success", "cwd": "/synthetic/project", "synthetic": true}}
+{"timestamp": "2026-11-01T00:00:01Z", "type": "event_msg", "payload": {"type": "task_started"}}
+{"timestamp": "2026-11-01T00:00:02Z", "type": "response_item", "payload": {"type": "custom_tool_call", "call_id": "12-mcp-success-c01", "name": "mcp__docs__search", "input": "{\"query\":\"timeout configuration\"}"}}
+{"timestamp": "2026-11-01T00:00:03Z", "type": "response_item", "payload": {"type": "custom_tool_call_output", "call_id": "12-mcp-success-c01", "output": {"isError": false, "content": [{"type": "text", "text": "timeout_seconds = 30"}]}}}
+{"timestamp": "2026-11-01T00:00:04Z", "type": "event_msg", "payload": {"type": "task_complete"}}
