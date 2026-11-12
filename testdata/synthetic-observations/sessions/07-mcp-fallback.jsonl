@@ -1,0 +1,9 @@
+{"timestamp": "2026-11-01T00:00:00Z", "type": "session_meta", "payload": {"id": "synthetic-07-mcp-fallback", "cwd": "/synthetic/project", "synthetic": true}}
+{"timestamp": "2026-11-01T00:00:01Z", "type": "event_msg", "payload": {"type": "task_started"}}
+{"timestamp": "2026-11-01T00:00:02Z", "type": "response_item", "payload": {"type": "custom_tool_call", "call_id": "07-mcp-fallback-c01", "name": "mcp__docs__search", "input": "{\"query\":\"timeout configuration\"}"}}
+{"timestamp": "2026-11-01T00:00:03Z", "type": "response_item", "payload": {"type": "custom_tool_call_output", "call_id": "07-mcp-fallback-c01", "output": {"isError": true, "error": {"code": "TIMEOUT", "message": "Request timed out"}}}}
+{"timestamp": "2026-11-01T00:00:04Z", "type": "response_item", "payload": {"type": "custom_tool_call", "call_id": "07-mcp-fallback-c02", "name": "mcp__docs__search", "input": "{\"query\":\"timeout configuration\"}"}}
+{"timestamp": "2026-11-01T00:00:05Z", "type": "response_item", "payload": {"type": "custom_tool_call_output", "call_id": "07-mcp-fallback-c02", "output": {"isError": true, "error": {"code": "TIMEOUT", "message": "Request timed out"}}}}
+{"timestamp": "2026-11-01T00:00:06Z", "type": "response_item", "payload": {"type": "custom_tool_call", "call_id": "07-mcp-fallback-c03", "name": "exec", "input": "text(await tools.exec_command({\"cmd\":\"rg -n timeout docs/\",\"workdir\":\"/synthetic/project\"}));"}}
+{"timestamp": "2026-11-01T00:00:07Z", "type": "response_item", "payload": {"type": "custom_tool_call_output", "call_id": "07-mcp-fallback-c03", "output": [{"type": "input_text", "text": "Script completed\nWall time 0.1 seconds\nOutput:\n"}, {"type": "input_text", "text": "{\"chunk_id\": \"chunk-3\", \"output\": \"docs/config.md:12: timeout_seconds = 30\", \"exit_code\": 0}"}]}}
+{"timestamp": "2026-11-01T00:00:08Z", "type": "event_msg", "payload": {"type": "task_complete"}}

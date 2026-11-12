@@ -1,0 +1,29 @@
+[
+  {
+    "file": "library-review.jsonl",
+    "source": "rollout-2026-10-12T19-54-52-01a13109-de1a-7342-82d9-78c48977ae73.jsonl",
+    "project": "sys",
+    "task": "Проверка диаграмм библиотечного фонда",
+    "source_uncompressed_sha256": "20bad7e0d93d2f2942120bfcbf8e7e2cc3b70e6951bd13b645efdc74d3aa8c42",
+    "prepared_sha256": "9d7b80302093f6dfb0bc0cd9a9ff1b75ca704e7e5a18403df3ab9cced64df73e",
+    "transformation": "agentlens prepare: IDs, timestamps, usage, derived input hashes, wrapper outcomes and process-result exit codes/hashes; source_line is original 1-based line"
+  },
+  {
+    "file": "tech-debt-bpmn.jsonl",
+    "source": "rollout-2026-10-19T20-36-24-01a1553c-6611-7602-af83-8cbc15576873.jsonl",
+    "project": "sys",
+    "task": "Создание и исправление BPMN технического долга",
+    "source_uncompressed_sha256": "8e6c9e173be3608657d33325b1dbb4cbc5837dfe1b41002b3feeadc236627e74",
+    "prepared_sha256": "84152c469528405f0f7150ec8304e3ae53a078690f95662ea99961d515156fc0",
+    "transformation": "agentlens prepare: IDs, timestamps, usage, derived input hashes, wrapper outcomes and process-result exit codes/hashes; source_line is original 1-based line"
+  },
+  {
+    "file": "library-integration.jsonl",
+    "source": "rollout-2026-11-08T17-06-08-01a1bb7b-1766-7713-99e7-0fb73be66e3b.jsonl",
+    "project": "sys",
+    "task": "Проектирование интеграции выдачи учебника",
+    "source_uncompressed_sha256": "aa45ded54c28f1cb40b8cf905dda71c5d264d06d5b44e966875e6afcca0ef85b",
+    "prepared_sha256": "b61b04030edc0b17567ea92c222459e1312d0b882e5a2a20a0ebcbea963d5a59",
+    "transformation": "agentlens prepare: IDs, timestamps, usage, derived input hashes, wrapper outcomes and process-result exit codes/hashes; source_line is original 1-based line"
+  }
+]
